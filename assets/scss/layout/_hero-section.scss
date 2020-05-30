@@ -1,0 +1,49 @@
+/*Hero-section*/
+.hero-section {
+    height: 500px;   
+    background-image: url(../image/post-image.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.hero-section__text {
+    max-width: 60vw;
+}
+
+#icon {
+    color: $white;
+}
+
+.hero-section__icon {
+    align-self: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+@media (min-width: 720px) {
+    .hero-section {
+        height: 600px;   
+        background-color: $eerie-black;
+        background-image: url(../image/post-image.jpg);
+        background-repeat: no-repeat;
+        box-sizing: cover;
+        background-position: center;
+        display: flex;  
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: $xx-large;
+    }
+
+    .main-section__text {
+        line-height: 3;
+    }
+}

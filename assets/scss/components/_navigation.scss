@@ -1,0 +1,19 @@
+/*Navbar*/
+.nav-bar {
+    background-color: $eerie-black;
+    padding: 0.5rem 1rem;
+    .fa-bars {
+        color: $white;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $white;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: $fuzzy-wuzzy;
+    &:hover {
+        color: $spanish-pink;
+    }
+}

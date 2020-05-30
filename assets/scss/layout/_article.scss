@@ -1,0 +1,44 @@
+/*Article*/
+
+#article-section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border: 1px solid $light-gray;
+}
+
+.article-section__row {
+    align-items: center;
+}
+
+.article__image {
+    display: inline-block;
+    text-align: center;
+}
+
+.article-img {
+    width: 50%;
+    border-radius: 50%;
+    border: 1px solid $light-gray;
+    margin: 10px;
+}
+
+.article__rrss {
+    text-align: center;
+    color: $ruddy-pink;
+}
+
+@media (max-width: 720px) {
+    .article__text {
+        display: none;
+    }
+}
+
+@media (min-width: 720px) {
+    .article-img {
+        width: 80%;
+        border-radius: 50%;
+        border: 1px solid $light-gray;
+        margin: 10px;
+    }
+}

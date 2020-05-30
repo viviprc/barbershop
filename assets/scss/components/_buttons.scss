@@ -1,0 +1,27 @@
+/*Buttons*/
+/*Buttons*/
+
+.main-section__buttons {
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+    border-radius: 1.3rem;
+}
+
+#main-section__buttons {
+    font-size: $small;
+    background-color: $nickel;
+    border-radius: 1.2rem;;
+
+    &:hover {
+    color: $platinum;
+}
+}
+
+
+@media (min-width: 720px) {
+    #main-section__buttons {
+        font-size: $medium;
+    }
+}

@@ -1,0 +1,35 @@
+/*Pagination*/
+
+.pagination {
+    background-color: $platinum;
+    height: 120px;
+    border-top: $nickel;
+    border-width: thick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#previous{
+    border-top-left-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+}
+
+#next {
+    border-top-right-radius: 1.2rem ;
+    border-bottom-right-radius: 1.2rem ;
+    color: $eerie-black;
+}
+
+#uno, #tres {
+    color: $eerie-black;
+}
+
+.page-item.active .page-link {
+    background-color: $nickel;
+    border-color: $nickel;
+}
+
+a .page-link {
+    color: $nickel;
+}
